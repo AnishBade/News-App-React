@@ -1,12 +1,14 @@
 
 import './App.css';
+import React, { Component } from 'react'
 
-function App() {
-  return (
-    <div className="App">
-      Hello my first class based component
-    </div>
-  );
+export default class App extends Component {
+  render() {
+    return (
+      <div>
+        This is my first class based component
+      </div>
+    )
+  }
 }
 
-export default App;
